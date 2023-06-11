@@ -1,0 +1,52 @@
+.wrapper {
+  width: 30%;
+  height: 100vh;
+  border-right: solid 1px #ddd;
+}
+
+.slide-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  color: #08c;
+}
+
+.slide-header h1 {
+  margin: 0;
+}
+
+.slide-notes {
+  height: calc(100vh);
+  overflow-y: scroll;
+}
+
+.slide-note {
+  padding: 25px;
+  cursor: pointer;
+}
+
+.slide-note-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide-note p {
+  margin: 10px 0;
+}
+
+.slide-note small {
+  color: #999;
+}
+
+.slide-note:hover {
+  background-color: #f1f1f1;
+}
